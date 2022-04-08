@@ -1,0 +1,9 @@
+verilog axi_infrastructure_v1_1_0 --include "../../../ipstatic/hdl" \
+"../../../ipstatic/hdl/axi_infrastructure_v1_1_vl_rfs.v" \
+
+verilog xil_defaultlib --include "../../../ipstatic/hdl" \
+"../../../../ip.gen/sources_1/ip/axi_clock_converter_0/sim/axi_clock_converter_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

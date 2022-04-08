@@ -1,0 +1,14 @@
+diff --git a/XDMA/linux-kernel/xdma/xdma_mod.c b/XDMA/linux-kernel/xdma/xdma_mod.c
+index fe51eab..6852372 100644
+--- a/XDMA/linux-kernel/xdma/xdma_mod.c
++++ b/XDMA/linux-kernel/xdma/xdma_mod.c
+@@ -45,7 +45,8 @@ MODULE_LICENSE("Dual BSD/GPL");
+ static int xpdev_cnt;
+ 
+ static const struct pci_device_id pci_ids[] = {
+-	{ PCI_DEVICE(0x10ee, 0x9048), },
++        { PCI_DEVICE(0x1d0f, 0x1042), },
++        { PCI_DEVICE(0x10ee, 0x9048), },
+ 	{ PCI_DEVICE(0x10ee, 0x9044), },
+ 	{ PCI_DEVICE(0x10ee, 0x9042), },
+ 	{ PCI_DEVICE(0x10ee, 0x9041), },

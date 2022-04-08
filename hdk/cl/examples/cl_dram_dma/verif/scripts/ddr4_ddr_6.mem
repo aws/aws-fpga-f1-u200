@@ -1,0 +1,16 @@
+// Amazon FPGA Hardware Development Kit
+//
+// Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+// SPDX-License-Identifier: Apache-2.0
+
+config 4 8
+0 0 0 1 2e282e20
+3 3 2bf8 3f9 2e282e20
+0 0 1 0 00000000
+3 3 2bf9 3f8 00000000
+0 0 2 0 00000000
+3 3 2bfa 3f8 00000000
+0 0 4 0 00000000
+3 3 2bfc 3f8 00000000
+0 0 8 0 00000000
+3 3 2bf0 3f8 00000000
