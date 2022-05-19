@@ -67,9 +67,9 @@ source the development setup through hdk_setup.sh
 The hdk_setup.sh script sets up all the required environment for Alveo U200 development using F1 based Alveo F1.A.1.4 shell. It points to the vivado installation, checks for supported version of vivado tool for compatibility, sets up key environment variables and downloads F1.A.1.4 shell dcp. In addition, it also prepares any required patches for tool and IP blocks.
 
 *STEP5*:
-After setting up the development environment, in order to build cl_dram_dma example provided, run the following steps
+After setting up the development environment, in order to build cl_hello_world example provided, run the following steps
 
-    $ cd $HDK_DIR/cl/examples/cl_dram_dma
+    $ cd $HDK_DIR/cl/examples/cl_hello_world
     $ export CL_DIR=$(pwd)
     $ cd $CL_DIR/build/scripts
     $ ./aws_build_bit_from_cl.sh
