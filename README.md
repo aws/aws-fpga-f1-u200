@@ -52,10 +52,8 @@ They can also simply download the dev kit provided as tar ball from xilinx Alveo
 setup the software development environment
 
 	source sdk_setup.sh
-	cd sdk
-	sudo ./sdk_install.sh
 
-*STEP3*:
+*STEP3(optinal, only if you'd like to run designs with DMA capabilities)*:
 
 Install the patched xdma driver according to instructions in $ROOT/sdk/xdma_patch/xdma_install.md
 
