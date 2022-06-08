@@ -48,20 +48,26 @@ The customers will clone the dev kit using
 They can also simply download the dev kit provided as tar ball from xilinx Alveo Vivado flow [webpage](https://www.xilinx.com/products/boards-and-kits/alveo/u200.html#gettingStarted).
 
 *STEP2*:
+
+setup the software development environment
+
+	source sdk_setup.sh
+
+*STEP3(optinal, only if you'd like to run designs with DMA capabilities)*:
+
+Install the patched xdma driver according to instructions in $ROOT/sdk/xdma_patch/xdma_install.md
+
+*STEP4*:
 source the development setup through hdk_setup.sh
 
     source hdk_setup.sh
 
 The hdk_setup.sh script sets up all the required environment for Alveo U200 development using F1 based Alveo F1.A.1.4 shell. It points to the vivado installation, checks for supported version of vivado tool for compatibility, sets up key environment variables and downloads F1.A.1.4 shell dcp. In addition, it also prepares any required patches for tool and IP blocks.
 
-setup the software development environment
+*STEP5*:
+After setting up the development environment, in order to build cl_hello_world example provided, run the following steps
 
-    source sdk_setup.sh
-
-*STEP3*:
-After setting up the development environment, in order to build cl_dram_dma example provided, run the following steps
-
-    $ cd $HDK_DIR/cl/examples/cl_dram_dma
+    $ cd $HDK_DIR/cl/examples/cl_hello_world
     $ export CL_DIR=$(pwd)
     $ cd $CL_DIR/build/scripts
     $ ./aws_build_bit_from_cl.sh
