@@ -1,0 +1,1 @@
+vopt -64 +acc=npr -l elaborate.log -L xsdbm_v3_0_0 -L xil_defaultlib -L lut_buffer_v2_0_0 -L unisims_ver -L unimacro_ver -L secureip -work xil_defaultlib xil_defaultlib.cl_debug_bridge xil_defaultlib.glbl -o cl_debug_bridge_opt

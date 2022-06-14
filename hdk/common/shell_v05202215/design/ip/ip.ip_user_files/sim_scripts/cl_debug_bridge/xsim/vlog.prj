@@ -1,0 +1,9 @@
+verilog xil_defaultlib --include "../../../ipstatic/hdl/verilog" --include "../../../../ip.gen/sources_1/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog" \
+"../../../../ip.gen/sources_1/ip/cl_debug_bridge/bd_0/ip/ip_0/sim/bd_a493_xsdbm_0.v" \
+"../../../../ip.gen/sources_1/ip/cl_debug_bridge/bd_0/ip/ip_1/sim/bd_a493_lut_buffer_0.v" \
+"../../../../ip.gen/sources_1/ip/cl_debug_bridge/bd_0/sim/bd_a493.v" \
+"../../../../ip.gen/sources_1/ip/cl_debug_bridge/sim/cl_debug_bridge.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
