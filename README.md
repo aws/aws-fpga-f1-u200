@@ -55,7 +55,7 @@ setup the software development environment
 
 *STEP3(optinal, only if you'd like to run designs with DMA capabilities)*:
 
-Install the patched xdma driver according to instructions in sdk/xdma_patch/xdma_install.md
+Install the patched xdma driver according to instructions in [xdma installation guide](https://github.com/aws/aws-fpga-f1-u200/blob/main/sdk/xdma_patch/xdma_install.md)
 
 *STEP4*:
 source the development setup through hdk_setup.sh
