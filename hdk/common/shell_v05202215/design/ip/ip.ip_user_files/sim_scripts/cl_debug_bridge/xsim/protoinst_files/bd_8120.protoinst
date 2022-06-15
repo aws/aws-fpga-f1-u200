@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"bd_8120": {
+			"proto_instances": {
+			}
+		}
+	}
+}

@@ -1,0 +1,2 @@
+axi_clock_converter_512.v,verilog,xil_defaultlib,../../../../ip.gen/sources_1/ip/axi_clock_converter_512/sim/axi_clock_converter_512.v,incdir="$ref_dir/../../../ipstatic/hdl"incdir="../../../ipstatic/hdl"
+glbl.v,Verilog,xil_defaultlib,glbl.v
