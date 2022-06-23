@@ -19,6 +19,8 @@ AWS F1.A.1.4 shell enables customers to migrate designs seamlessly between on-pr
 
 The F1.A.1.4 shell is fully interface compatible and footprint compatible with F1.X.1.4 and no changes to custom logic design are required. Similar to the existing F1 shells, the F1.A.1.4 shell provides all the required communication interfaces to the custom logic. This helps our customers with the effort required to implement their own interfaces for Alveo U200 platform and also provides them with a seamless migration path to F1 in the custom RTL development flow. The F1.A.1.4 shell does not support partial reconfiguration/DFX. Dynamic clock configuration, VDIP/VLED are controlled via registers in PF1-B0 in F1.A.1.4 shell, using tools provided in the developer kit. SW APIs supported by F1.X.1.4 shell are not available/compatible with F1.A.1.4 shell.
 
+*Note:* F1.A.1.4 shell requires the host to have an appropriate BIOS to enumerate 128G BAR. Most x86 hosts can support this with BIOS support. The F1.A.1.4 shell is verified on asrock ROMED8-2T motherboard model. Also make sure to enable large BAR configuration in the BIOS settings
+
 # Development Flow <a name=Development-Flow></a>
 The F1 provided F1.A.1.4 shell based Vivado design flow will have the shell provided as dcp and the associated developer kit (including examples, build scripts, constraints) provided through xilinx website as a tar file and also through github, along with Readme/Tutorial documents for use in Alveo development environment. The developer kit will also include examples to help customers get started with development in Alveo Vivado design flow using F1 provided Alveo shell.
 
